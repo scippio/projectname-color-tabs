@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle projectname-color-tabs'
+      'command': 'projectname-color-tabs:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'projectname-color-tabs'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'projectname-color-tabs:toggle'
+        }
+      ]
+    ]
+  }
+]

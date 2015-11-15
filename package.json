@@ -1,0 +1,21 @@
+{
+  "name": "projectname-color-tabs",
+  "main": "./lib/projectname-color-tabs",
+  "version": "0.0.1",
+  "description": "Add project name into tabs + coloring via colors-tabs plugin",
+  "keywords": [
+      "tabs",
+      "project",
+      "color"
+  ],
+  "activationCommands": {
+    "atom-workspace": "projectname-color-tabs:toggle"
+  },
+  "repository": "https://github.com/scippio/projectname-color-tabs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
